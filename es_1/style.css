@@ -1,0 +1,111 @@
+
+.container{
+
+  width: 700px;
+  margin:auto;
+  
+}
+
+.text-center {
+
+  text-align: center;
+
+}
+
+.icon-grid {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.show {
+
+  visibility: visible !important;
+  opacity: 100 !important;
+
+}
+
+#tabella > div{
+
+  margin: 30px 20px;
+  width: 130px;
+  height: 130px;
+  background-color: goldenrod;
+  
+}
+
+.timer {
+  padding: 15px 0;
+}
+
+.icon {
+
+  font-size: 85px;
+  text-align: center;
+  visibility: visible !important;
+  opacity:0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+}
+
+.disabled {
+
+  pointer-events: none;
+  cursor:wait;
+
+}
+
+.show {
+ 
+  background-color:white;
+  
+}
+
+.find {
+  
+  background-color:greenyellow;
+  
+}
+
+.button{
+
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15px;
+  padding: 10px;
+
+  background-color: goldenrod;
+  
+}
+
+#messageBox {
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: white, 0.8;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#messageBox.active {
+
+  display: flex;
+
+}
+
+#messageBox h2 {
+
+  margin-top: 20px;
+  
+}
+  

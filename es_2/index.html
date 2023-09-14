@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>es_2</title>
+</head>
+
+<body>
+    <div id="main">
+
+        <h1>Tris</h1>
+
+        <hr>
+
+        <div class="gui">
+            
+            <div class="row">
+                <input type="text" id="btn_1" class="cell" onclick="btn_1_1(); inizia();" readonly>
+                <input type="text" id="btn_2" class="cell" onclick="btn_2_1(); inizia();" readonly>
+                <input type="text" id="btn_3" class="cell" onclick="btn_3_1(); inizia();" readonly>
+            </div>
+
+            <div class="row">
+                <input type="text" id="btn_4" class="cell" onclick="btn_1_2(); inizia();" readonly>
+                <input type="text" id="btn_5" class="cell" onclick="btn_2_2(); inizia();" readonly>
+                <input type="text" id="btn_6" class="cell" onclick="btn_3_2(); inizia();" readonly>
+            </div>
+
+            <div class="row">
+                <input type="text" id="btn_7" class="cell" onclick="btn_1_3(); inizia();" readonly>
+                <input type="text" id="btn_8" class="cell" onclick="btn_2_3();inizia();" readonly>
+                <input type="text" id="btn_9" class="cell" onclick="btn_3_3();inizia();" readonly>
+            </div>
+
+        </div>
+        <hr>
+
+        <button id="but" onclick="pulisci()">
+            Rigioca
+        </button>
+        <hr>
+        <p id="print"></p>
+    </div>
+</body>
+
+</html>

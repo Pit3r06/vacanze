@@ -1,0 +1,102 @@
+
+img{
+
+    width: 1700px;
+    height: 850px;
+    padding-top: 120px;
+    padding-left: 120px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+div{
+
+    position: absolute;
+
+    background-color:gold ;
+    
+}
+
+
+.btn{
+    
+    position: absolute;
+
+    width: 100px;
+    height: 40px;
+
+    font-size: 20px;
+    
+}
+
+#Dsoggiorno{
+
+    display: none;
+
+    margin-top: 650px;
+    margin-left: 400px;
+
+    width: 100px;
+    height: 100px;
+
+}
+
+#Dcucina{
+
+    display: none;
+
+    margin-top: 250px;
+    margin-left: 380px;
+
+    width: 100px;
+    height: 100px;
+
+}
+
+#Dletto{
+
+    display: none;
+
+    margin-top: 250px;
+    margin-left: 1180px;
+
+    width: 200px;
+    height: 100px;
+}
+
+#Dbagno{
+
+    display: none;
+
+    margin-top: 780px;
+    margin-left: 1080px;
+
+    width: 100px;
+    height: 100px;
+}
+
+#soggiorno{
+
+    margin-top: 680px;
+
+}
+
+#cucina{
+ 
+    margin-top: 250px;
+
+}
+
+#letto{
+ 
+    margin-left: 1180px;
+
+}
+
+#bagno{
+
+    margin-top: 850px;
+    margin-left: 1500px;
+
+}
